@@ -43,7 +43,7 @@
 
         super-2 {
             bindings = <&kp LS(LA(LC(APOS)))>;
-            key-positions = <>;
+            key-positions = <36>;
         };
 
         super-3 {
