@@ -42,8 +42,8 @@
         };
 
         super-2 {
-            bindings = <&kp LS(LA(LC(DOLLAR)))>;
-            key-positions = <36>;
+            bindings = <&kp LS(LA(LC(APOS)))>;
+            key-positions = <>;
         };
 
         super-3 {
