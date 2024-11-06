@@ -28,17 +28,12 @@
             quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
+
+            hold-trigger-key-positions = <29>;
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        super-3 {
-            bindings = <&kp LS(LA(LEFT_COMMAND))>;
-            key-positions = <29>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
