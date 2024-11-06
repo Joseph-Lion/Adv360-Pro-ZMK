@@ -33,7 +33,29 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        super-1 {
+            bindings = <&kp LS(LA(LC(ASTERISK)))>;
+            key-positions = <35>;
+        };
+
+        super-2 {
+            bindings = <&kp LS(LA(LC(DOLLAR)))>;
+            key-positions = <36>;
+        };
+
+        super-3 {
+            bindings = <&kp RS(RA(RC(NON_US_HASH)))>;
+            key-positions = <53>;
+        };
+
+        super-4 {
+            bindings = <&kp RS(RC(RA(SEMI)))>;
+            key-positions = <68>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
