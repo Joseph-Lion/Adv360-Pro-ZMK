@@ -24,12 +24,11 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <175>;
-            quick_tap_ms = <175>;
+            tapping-term-ms = <250>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions = <29 32 41 44>;
+            hold-trigger-key-positions = <29 44>;
         };
     };
 
