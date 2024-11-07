@@ -24,7 +24,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <175>;
             quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
@@ -64,11 +64,6 @@
         Shift-or-Semi {
             bindings = <&hm RIGHT_SHIFT SEMI>;
             key-positions = <44>;
-        };
-
-        Homerow {
-            bindings = <&mo 3>;
-            key-positions = <32>;
         };
     };
 
