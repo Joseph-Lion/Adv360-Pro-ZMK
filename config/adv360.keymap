@@ -28,8 +28,6 @@
             quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
-
-            hold-trigger-key-positions = <29>;
         };
     };
 
@@ -54,6 +52,16 @@
         super-4 {
             bindings = <&kp RS(RC(RA(SEMI)))>;
             key-positions = <68>;
+        };
+
+        shift-or-a {
+            bindings = <&hm LEFT_SHIFT A>;
+            key-positions = <29>;
+        };
+
+        Shift-or-Semi {
+            bindings = <&hm RIGHT_SHIFT SEMI>;
+            key-positions = <44>;
         };
     };
 
